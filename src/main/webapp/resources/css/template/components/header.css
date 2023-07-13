@@ -1,0 +1,66 @@
+header
+{
+    font-family: GmarketSansMedium;
+    font-weight: 700;
+    margin: 0px 0px 20px 0px ;
+}
+
+.gnb
+{
+    min-width: 100%;
+}
+
+.gnb-left,.gnb-right
+{
+    display: flex;
+}
+
+.gnb-item
+{
+    display: flex;
+
+    margin: 0px 10px 0px 10px; 
+
+}
+
+.gnb-btn
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 40px;
+
+
+}
+
+.gnb-link
+{   
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.gnb-link-sm
+{
+    font-size: 15px;
+}
+
+/* dropdown toggle hide */
+.dropdown-toggle::after
+{
+    display: none;
+}
+
+/* dropdown outline hide */
+.btn-check:focus+.btn, .btn:focus{
+    box-shadow: none;
+}
+
+/* dropdown hover menu*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    transform: translateY(39.5px);
+    min-width: 100px;
+    border-radius: 0;
+}

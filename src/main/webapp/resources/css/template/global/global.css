@@ -1,0 +1,117 @@
+/* 전역설정 */ 
+@charset "UTF-8";
+
+html,body
+{
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: GmarketSansMedium;
+    font-weight : 300;
+    
+    color: #2f2f2f;
+    font-size: 16px;
+    line-height: 1.7;
+    background-color: #ffffff25;
+}
+
+
+.divide-line
+{
+    border-right: 1px solid #e2e6ee;
+}
+
+.wrapper
+{
+    min-width: 1400px;
+}
+
+
+/* 제목폰트 */
+h1,h2,h3,h4,h5,h6
+{
+    font-family: Happiness-Sans-Title;
+    font-weight : 700;
+
+}
+
+/* 링크 */
+
+a
+{
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #818181;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:focus
+{
+    outline: none;
+    color: #999999;
+    text-decoration: none;
+}
+
+
+
+/* row */
+
+.row-none
+{
+    margin: 10px 0;
+}
+
+.row-default
+{
+    display: flex;
+    margin: 10px 0;
+}
+
+.row-start
+{
+    display: flex;
+    justify-content: start;
+    margin: 10px 0;
+}
+
+.row-end
+{
+    display: flex;
+    justify-content: end;
+    margin: 10px 0;
+}
+
+.row-center
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.row-between
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.row-around
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.row-evenly
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}

@@ -1,0 +1,30 @@
+.contents
+{
+    width: 1200px;
+    padding: 20px;
+}
+
+
+
+
+
+.main
+{
+    
+}
+
+.banner-frame
+{
+    padding: 14px 14px 0px 14px;
+}
+
+.banner-img
+{
+    width: 100%;
+}
+
+.posting-left,.posting-right
+{
+    width: 100%;
+    height: 250px;
+}

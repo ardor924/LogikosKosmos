@@ -1,0 +1,38 @@
+.snb
+{   
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.snb-title
+{
+
+}
+
+.snb-myinfo{
+    padding: 10px 10px 10px 10px;
+}
+
+.my-profile-frame
+{
+
+}
+
+.my-profile-img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.my-name
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
